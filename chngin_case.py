@@ -2,3 +2,4 @@
 
 msg="hi this a changing case program"
 print(msg.title())
+
