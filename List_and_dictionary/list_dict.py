@@ -17,6 +17,8 @@ thedict = [a,b,c]
 name_list=[a["name"],b["name"],c["name"]]
 search_name=input("Enter the name")
 index_name=name_list.index(search_name)
+
+studentage=thedict[index_name]["age"]
 print(thedict)
 print(index_name)
-
+print("Age", studentage)
